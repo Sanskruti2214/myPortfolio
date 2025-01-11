@@ -1,0 +1,116 @@
+#education{
+    /* border:2px solid rgb(212, 235, 84); */
+    width:95%;
+    height:80%;
+    margin:18px auto;
+    /* padding:4px 4px 4px 14px; */
+    overflow:auto;
+    display:flex;
+    align-items: center;
+    /* justify-content:flex-start; */
+    flex-wrap:wrap;
+}
+.edu-info{
+    /* border:2px solid rgb(212, 235, 84); */
+    display:flex;
+    width:99%;
+    /* position:relative; */
+    height:85%;
+
+}
+.edu-vis{
+    width:0.5%;
+    margin-right:3.5%;
+    position:relative;
+    /* bottom:0; */
+    /* height:60%; */
+    border-radius: 10px;
+    /* box-shadow: 0 2px 8px 0 rgba(230, 230, 235, 0.95); */
+}
+.edu-vis i{
+    position:absolute;
+    font-size: 1.5em;
+    color:yellow;
+    animation-name: edu-run;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+}
+@keyframes edu-run {
+    0% {
+        top:0%;
+    }
+    50% {
+        top:90%;
+    }
+    100% {
+        top:0%;
+    }
+}
+.edu{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width:95%;
+    /* padding-top:18px; */
+    /* margin:10px; */
+    /* border:2px solid rgb(38, 64, 210); */
+    /* flex-direction:col */
+}
+.edu-box{
+    width:95%;
+    height:24%;
+    display:flex;
+    margin-bottom:25px;
+    padding:10px;
+    overflow:auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 0 rgb(84, 202, 235,0.45);
+}
+.edu-box i{
+    font-size: 1.5em;
+    color:yellow;
+    margin-right:10px;
+    /* font-weight: 600; */
+}
+
+.edu-top span{
+    font-size:1.4em;
+    font-weight: 600;
+}
+.edu-top div{
+    color:yellow;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+@media (max-width: 900px){
+    .edu-box{
+        height:22%;
+        width:100%;
+    }
+    .edu-box i{
+        font-size:15px;
+    }
+    .edu-top span{
+        font-size:15px;
+    }
+    .edu-top div{
+        font-size:14px;
+    }
+}
+@media (max-height: 600px){
+    .edu-box{
+        height:30%;
+        width:100%;
+    }
+    .edu-box i{
+        font-size:15px;
+    }
+    .edu-top span{
+        font-size:15px;
+    }
+    .edu-top div{
+        font-size:14px;
+    }
+}

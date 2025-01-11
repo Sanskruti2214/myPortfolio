@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyPortfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="about.css">
+    </head>
+    <body>
+        <div class="main">
+            <!-- left part -->
+            <div class="leftPart">
+                <!-- left - top -> profile -->
+                <div id="profile">
+                    <div id="profile-pic">
+                        <img src="img\portfolio img.jpg">
+                    </div>
+                    <div id="profile-name">
+                        Sanskruti Bhise
+                    </div>
+                    <div id="profile-tag">
+                        Software Engineer
+                    </div>
+                </div>
+                <!-- left - bottom -> profile-info -->
+                <div id="nav-info">
+                    <div class="info-content">
+                        <div><i class="fa-solid fa-envelope"></i>Email</div>
+                        <span>sanskrutibhise03@gmail.com</span>
+                    </div>
+                    <div class="info-content">
+                        <div><i class="fa-solid fa-phone"></i>Phone</div>
+                        <span>+91 9975458500</span>
+                    </div>
+                    <div class="info-content">
+                        <div><i class="fa-sharp fa-solid fa-location-dot"></i>Location</div>
+                        <span>Pune, Maharahstra</span>
+                    </div>
+                    <div id="info-media">
+                        <a href="https://github.com/Sanskruti2214" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sanskruti-bhise-6384b0253" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- right part -->
+            <div class="rightPart">
+                <!-- navbar -->
+                <div class="navbar">
+                    <!-- brand for device responsive -->
+                    <div class="brand">Portfolio</div>
+                    <!-- toggle -->
+                    <div class="menu-icon" onclick="toggleMenu()"> ☰ </div>
+                    <!-- navbar -->
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="/">About</a></li>
+                            <li><a href="education.html">Education</a></li>
+                            <li><a href="skills.html">Skills</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Body of Right part -->
+                <div class="about">
+                    <!-- intro -->
+                    <div id="about-info">
+                        <p>
+                            I am a final-year Computer Science student at BRACT's Vishwakarma Institute of Information Technology, with a third-year CGPA of 9.49. My interests include Backend Development (currently specializing in Spring Boot), Web Development, and Data Structures & Algorithms (DSA) and AI/ML.
+                        </p><br>
+                        <p>
+                            I actively solve DSA problems to strengthen my problem-solving skills and apply my knowledge to real-world scenarios. With a strong foundation in computer science fundamentals, I am passionate about leveraging technology to create innovative solutions. Committed to continuous learning, I seek opportunities to collaborate on impactful projects, contribute to technological advancements, and grow as a developer.
+                        </p>
+                    </div>
+                    <div id="about-tag">What I am doing?</div>
+                    <div id="about-interest">
+                        <div class="interest">
+                            <i class="fa-solid fa-book"></i>
+                            <div class="interest-div">
+                                <span>Data Structure & Algorithms</span>
+                                <p>Solving problems with DSA to improve logic and coding skills.</p>
+                            </div>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-file-code"></i>
+                            <div class="interest-div">
+                                <span>Web Development</span>
+                                <p>Familiar with HTML, CSS, and JavaScript; currently learning React to expand front-end development expertise.</p>
+                            </div>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-sharp fa-solid fa-database"></i>
+                            <div class="interest-div">
+                                <span>Backend Development</span>
+                                <p>Developing backend skills in Spring Boot while leveraging familiarity with MySQL for efficient database handling.</p>
+                            </div>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                            <div class="interest-div">
+                                <span>Artificial Intelligence/Machine Learning </span>
+                                <p>Built AI/ML projects applying CNN and ANN techniques for innovative solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
